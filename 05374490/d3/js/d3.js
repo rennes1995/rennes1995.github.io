@@ -14,6 +14,14 @@ p.attr('points','500,500 400,600 600,600').attr('fill','lime').attr('stroke-widt
 r1.attr('x',100).attr('y',190).attr('width',800).attr('height',10).attr('fill','rgb(0,0,255)').attr('stroke-width',3).attr('stroke','rgb(0,0,0)');
 r2.attr('x',250).attr('y',0).attr('width',500).attr('height',189).attr('fill','#ffffff').attr('stroke-width',1).attr('stroke','pink');
 
+function move(){
+    p.attr('points','500,600 400,700 600,700').attr('fill','lime').attr('stroke-width',1).attr('stroke','purple');
+
+}
+function remove(){
+    p.attr('points','500,500 400,600 600,600').attr('fill','lime').attr('stroke-width',1).attr('stroke','purple');
+
+}
 function yellowcap(){
     r2.attr('x',250).attr('y',0).attr('width',500).attr('height',189).attr('fill','yellow').attr('stroke-width',1).attr('stroke','pink');
 
